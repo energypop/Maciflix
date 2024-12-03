@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Sasha" />
+    <meta property="og:title" content="Maciflix" />
+    <meta name="twitter:title" content="Maciflix" />
+    <meta http-equiv="Content-Language" content="es" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="frame-ancestors 'self'"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/styles/normalise.css" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/styles/buttons.css" />
+    <title>Maciflix España - Cuenta</title>
   </head>
-  <body></body>
+  <body>
+    <div class="flex-container">
+      <div class="login">
+        <form>
+          <input type="text" id="email" placeholder="Email" />
+          <input type="password" id="password" placeholder="Contraseña" />
+          <button type="button">Iniciar sesión</button>
+          <span>No tienes cuenta? Crea una aqui:</span>
+          <button type="button">Registrarse</button>
+        </form>
+      </div>
+
+      <div class="sign-up">
+        <input type="text" id="email" placeholder="Email" />
+        <input type="password" id="password" placeholder="Contraseña" />
+        <button type="button">Crear cuenta</button>
+      </div>
+    </div>
+  </body>
 </html>
