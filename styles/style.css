@@ -22,12 +22,12 @@
 
 .login {
   /* ? Glass Effect */
-  background: rgba(114, 113, 113, 0.1);
+  background: rgba(14, 13, 13, 0.1);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(114, 113, 113, 0.1);
+  box-shadow: 0 4px 30px rgba(14, 13, 13, 0.1);
   backdrop-filter: blur(6.9px);
   -webkit-backdrop-filter: blur(6.9px);
-  border: 1px solid rgba(114, 113, 113, 0.1);
+  border: 1px solid rgba(14, 13, 13, 0.1);
   padding: 13%;
 }
 
@@ -48,6 +48,7 @@ body {
   font-family: var(--title-font); /*! Change it soon */
   background-color: rgb(0, 0, 0); /*! Should add an image as background */
   color: white; /*! Change it so it works without affecting other elements */
+  background-image: url(/images/zjgs096khv591.jpg);
 }
 
 header {
