@@ -28,7 +28,7 @@
   backdrop-filter: blur(6.9px);
   -webkit-backdrop-filter: blur(6.9px);
   border: 1px solid rgba(114, 113, 113, 0.1);
-  padding: 15%;
+  padding: 13%;
 }
 
 .login form {
