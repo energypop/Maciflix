@@ -21,22 +21,21 @@
   <body>
     <header>
       <!--? Aqui va el banner del abuelo-->
+      <h1>MaciFlix</h1>
     </header>
     <div class="flex-container">
       <div class="login">
         <form>
+          <h2>Inicio de sesión</h2>
           <input type="text" id="email" placeholder="Email" />
           <input type="password" id="password" placeholder="Contraseña" />
           <button type="button">Iniciar sesión</button>
-          <span>No tienes cuenta? Crea una aqui:</span>
-          <button type="button">Registrarse</button>
+          <div class="register">
+            <h3>No tienes cuenta?</h3>
+            <button type="button" id="register">Registrarse</button>
+            <script src="/scripts/register.js"></script>
+          </div>
         </form>
-      </div>
-
-      <div class="sign-up">
-        <input type="text" id="email" placeholder="Email" />
-        <input type="password" id="password" placeholder="Contraseña" />
-        <button type="button">Crear cuenta</button>
       </div>
     </div>
   </body>
