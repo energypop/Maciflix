@@ -1,11 +1,12 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const TEXT = "¡Bienvenido a Maciflix!";
-  let typewriterElement = document.getElementById("login-typewriter");
-  let index = 0;
+let i = 0;
+let text = "Iniciar sesión";
 
-  if (index < text.length) {
-    typewriterElement.textContent += TEXT.charAt(index);
-    index++;
-    setTimeout(typeWriter, 100); // Adjust typing speed (milliseconds)
-    }
-  });
+function Effect() {
+  while (i <= text.length) {
+    document.getElementById("login-typewriter").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(Effect, 100);
+  }
+}
+
+Effect();
