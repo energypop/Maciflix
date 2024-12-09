@@ -1,12 +1,12 @@
 let i = 0;
 let text = "Iniciar sesión";
+const TARGET = document.getElementById("login-typewriter");
 
-function Effect() {
-  while (i <= text.length) {
-    document.getElementById("login-typewriter").innerHTML += text.charAt(i);
+function Write() {
+  if (i <= text.length) {
+    document.getElementById(TARGET).innerHTML += text.charAt(i);
     i++;
-    setTimeout(Effect, 100);
+    setTimeout(Effect, 80);
   }
 }
-
-Effect();
+document.addEventListener("DOMContentLoaded", Write());
