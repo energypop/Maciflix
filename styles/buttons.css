@@ -16,37 +16,8 @@ button {
   font-family: var(--title-font);
 }
 
-@keyframes bn53bounce {
-  5%,
-  50% {
-    transform: scale(1);
-  }
-
-  10% {
-    transform: scale(1);
-  }
-
-  15% {
-    transform: scale(1);
-  }
-
-  20% {
-    transform: scale(1) rotate(-5deg);
-  }
-
-  25% {
-    transform: scale(1) rotate(5deg);
-  }
-
-  30% {
-    transform: scale(1) rotate(-3deg);
-  }
-
-  35% {
-    transform: scale(1) rotate(2deg);
-  }
-
-  40% {
-    transform: scale(1) rotate(0);
-  }
+button:hover {
+  color: rgb(238, 233, 233);
+  background-color: #8d0f0f;
+  transition: 0.5s;
 }
