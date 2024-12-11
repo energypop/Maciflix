@@ -1,13 +1,14 @@
-/*! Removed unused and unnecesary variables */
 :root {
   --title-font: "Inter", sans-serif;
   --text-font: "Roboto", sans-serif;
-  --red-color: #b81515;
+  --text-colour: #dcdcde;
+  --red-colour: #b81515;
+  --dark-red-colour: #8d0f0f;
 }
 
 button {
-  color: rgb(238, 233, 233);
-  background-color: var(--red-color);
+  color: var(--text-colour);
+  background-color: var(--red-colour);
   padding: 0.7em;
   border-radius: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,7 +18,7 @@ button {
 }
 
 button:hover {
-  color: rgb(238, 233, 233);
-  background-color: #8d0f0f;
+  color: var(--text-colour);
+  background-color: var(--dark-red-colour);
   transition: 0.5s;
 }
