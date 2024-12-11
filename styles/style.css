@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-  color: var(--red-color);
+  color: var(--red-colour);
   font-family: var(--title-font);
 }
 
