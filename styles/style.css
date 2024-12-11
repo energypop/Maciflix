@@ -3,15 +3,20 @@
 /*Inter Font*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-:root {
-  --title-font: "Inter", sans-serif;
-  --text-font: "Roboto", sans-serif;
-  --red-color: #b81515;
+/*Load custom styles*/
+@import url(/styles/custom_styles.css);
+
+/*! The website´s background bugs when zoomed out*/
+
+#register {
+  width: auto;
+  font-size: 1em;
+  padding: 1rem;
 }
 
 body {
   font-family: var(--title-font); /*! Change it soon */
-  color: white; /*! Change it so it works without affecting other elements */
+  color: rgb(226, 222, 222);
   background-image: url(/images/zjgs096khv591.jpg);
 }
 
@@ -30,12 +35,6 @@ header h1 {
 input {
   border-radius: 8px;
   padding: 0.8em;
-}
-
-#register {
-  width: auto;
-  font-size: 1em;
-  padding: 1rem;
 }
 
 .flex-container {
