@@ -1,12 +1,13 @@
 :root {
   --title-font: "Inter", sans-serif;
   --text-font: "Roboto", sans-serif;
+  --text-colour: #dcdcde;
   --red-colour: #b81515;
   --dark-red-colour: #8d0f0f;
 }
 
 button {
-  color: rgb(238, 233, 233);
+  color: var(--text-colour);
   background-color: var(--red-colour);
   padding: 0.7em;
   border-radius: 8px;
@@ -17,7 +18,7 @@ button {
 }
 
 button:hover {
-  color: rgb(238, 233, 233);
+  color: var(--text-colour);
   background-color: var(--dark-red-colour);
   transition: 0.5s;
 }

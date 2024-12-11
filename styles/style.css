@@ -15,8 +15,8 @@
 }
 
 body {
-  font-family: var(--title-font); /*! Change it soon */
-  color: rgb(226, 222, 222);
+  font-family: var(--title-font);
+  color: var(--text-colour);
   background-image: url(/images/zjgs096khv591.jpg);
 }
 
