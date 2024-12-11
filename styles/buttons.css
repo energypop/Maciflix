@@ -1,9 +1,5 @@
 /*! Removed unused and unnecesary variables */
-:root {
-  --title-font: "Inter", sans-serif;
-  --text-font: "Roboto", sans-serif;
-  --red-color: #b81515;
-}
+@import url(/styles/custom_styles.css);
 
 button {
   color: rgb(238, 233, 233);
