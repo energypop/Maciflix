@@ -1,14 +1,14 @@
 :root {
   --title-font: "Inter", sans-serif;
   --text-font: "Roboto", sans-serif;
-  --text-colour: #dcdcde;
-  --red-colour: #b81515;
-  --dark-red-colour: #8d0f0f;
+  --text-color: #dcdcde;
+  --red-color: #b81515;
+  --dark-red-color: #8d0f0f;
 }
 
 button {
-  color: var(--text-colour);
-  background-color: var(--red-colour);
+  color: var(--text-color);
+  background-color: var(--red-color);
   padding: 0.7em;
   border-radius: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,7 +18,7 @@ button {
 }
 
 button:hover {
-  color: var(--text-colour);
-  background-color: var(--dark-red-colour);
+  color: var(--text-color);
+  background-color: var(--dark-red-color);
   transition: 0.5s;
 }
