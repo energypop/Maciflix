@@ -8,7 +8,7 @@
 /*Load custom styles*/
 @import url(/css/custom_styles.css);
 
-/*! The website´s background bugs when zoomed out*/
+/*! BUG: The website´s background bugs when zoomed out*/
 
 #sign_up_button {
   width: auto;
