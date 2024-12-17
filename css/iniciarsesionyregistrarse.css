@@ -1,14 +1,14 @@
-/* ? Main CSS file for log_in.html and sign_up.html */
+/* ? Archivo CSS para iniciarsesion.html y registrarse.html */
 
-/*Roboto font*/
+/*Fuente Roboto*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/*Inter Font*/
+/*Fuente Inter*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/*Load custom styles*/
-@import url(/css/custom_styles.css);
+/*Cargar los estilos personalizados. Es lo que se usara para personalizar los botones, establecer la paleta de colores, la fuente...*/
+@import url(/css/estilospersonalizados.css);
 
-/*! BUG: The website´s background bugs when zoomed out*/
+/*! BUG: El fondo de la web se bugea al modificar el zoom de la pagina*/
 
 #sign_up_button {
   width: auto;
@@ -17,9 +17,9 @@
 }
 
 body {
-  font-family: var(--title-font);
-  color: var(--text-color);
-  background-image: url(/img/zjgs096khv591.jpg);
+  font-family: var(--inter-font);
+  color: var(--texto-color);
+  background-image: url(/img/fondonetflix.jpg);
 }
 
 header {
@@ -30,8 +30,8 @@ header {
 }
 
 header h1 {
-  color: var(--red-color);
-  font-family: var(--title-font);
+  color: var(--rojo-color);
+  font-family: var(--inter-fuente);
 }
 
 input {
@@ -46,7 +46,7 @@ input {
 }
 
 .login {
-  /* ? Glass Effect */
+  /* ? Efecto de transparencia  */
   background: rgba(42, 41, 41, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -67,5 +67,3 @@ input {
   flex-direction: column;
   align-items: center;
 }
-
-/* ! Reduce the selectors needed to apply the font family ASAP */
