@@ -8,16 +8,18 @@
     <meta property="og:title" content="Maciflix" />
     <meta name="twitter:title" content="Maciflix" />
     <meta http-equiv="Content-Language" content="es" />
-    <link rel="icon" type="image/x-icon" href="/img/zjgs096khv591.jpg" />
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/login_signup.css" />
-    <link rel="stylesheet" href="/css/custom_styles.css" />
+    <link rel="icon" type="image/x-icon" href="/img/fondonetflix.jpg" />
+    <link rel="stylesheet" href="/css/estandarizar.css" />
+    <link rel="stylesheet" href="/css/iniciarsesionyregistrarse.css" />
+    <link rel="stylesheet" href="/css/estilospersonalizados.css" />
     <title>Maciflix España - Iniciar sesións</title>
   </head>
   <body>
     <header>
-      <!--? Aqui va el banner del abuelo-->
-      <h1>MaciFlix</h1>
+      <iframe
+        src="/header.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
+      ></iframe>
     </header>
     <div class="flex-container">
       <div class="login">
@@ -31,15 +33,21 @@
             required
           />
           <button type="button" id="log_in_button">Iniciar sesión</button>
+          <script src="/js/iniciarsesion.js"></script>
           <div class="register">
             <h3>No tienes cuenta?</h3>
-            <a href="/sign_up.html">
-              <button type="button" id="sign_up_button">Registrarse</button>
+            <a href="/registrarse.html">
+              <button type="button">Registrarse</button>
             </a>
-            <script src="/js/account_creation_handler.js"></script>
           </div>
         </form>
       </div>
     </div>
+    <footer>
+      <iframe
+        src="footer.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
+      ></iframe>
+    </footer>
   </body>
 </html>
